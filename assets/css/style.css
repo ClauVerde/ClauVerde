@@ -8,10 +8,14 @@ body * {
 }
 
 .imagen-viajes {
-    max-width: 2.8%;
-    margin: 1rem;
+    max-width: 5%;
 }
 
+
+.icon-section {
+  font-size: x-large;
+  margin: 0.5rem;
+}
 
 .navbar-nav {
     font-family: 'Open Sans', sans-serif;
@@ -19,12 +23,6 @@ body * {
     position: sticky;
     top: 0;
     display: block; 
-}
-
-
-
-.bg-primary{
-  color: #15aabf;
 }
 
 .img-first,
@@ -58,15 +56,20 @@ body * {
 
 
 .font-weight-light {
-    font-family: 'Source Serif Pro', serif
+    font-family: 'Source Serif Pro', serif;
 }
 
-.card {
-  min-height: 500px;
-}
 
 .color {
   background-color: black;
+}
+
+.card {
+  min-height: 530px;
+}
+
+.bg-cielo{
+  background-color: #15aabf;
 }
 
 .fa-plane {
@@ -121,6 +124,7 @@ hr {
 .textos {
   color: white;
   text-align: left;
+  margin: 0.5rem;
 }
 
 .typeform-widget {
@@ -206,8 +210,4 @@ h4 {
   max-width:100%;
   height: 300px;
   object-fit: cover;
-}
-
-.fondo{
-  background-color: #15aabf;
 }
