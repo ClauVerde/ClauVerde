@@ -8,7 +8,7 @@ body * {
 }
 
 .imagen-viajes {
-    max-width: 5%;
+  max-width: 2rem;
 }
 
 
@@ -18,11 +18,11 @@ body * {
 }
 
 .navbar-nav {
-    font-family: 'Open Sans', sans-serif;
-    position: -webkit-sticky;  
-    position: sticky;
-    top: 0;
-    display: block; 
+  font-family: 'Open Sans', sans-serif;
+  position: -webkit-sticky;  
+  position: sticky;
+  top: 0;
+  display: block; 
 }
 
 .img-first,
@@ -42,17 +42,6 @@ body * {
 .img-third {
   background-image: url(../img/carousel3.jpg);
 }
-
-
-/*.carousel-item {
-    height: 65vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}*/
 
 
 .font-weight-light {
@@ -135,53 +124,11 @@ hr {
   padding: 2.5rem;
 }
 
-/*
-@media screen and (max-width:1200px) {
-  .card {
-    margin-left: 15px;
-    margin-bottom: 23px; 
+@media screen and (max-width:600px){
+  .about {
+      display: none;
   }
 }
-
-
-@media screen and (max-width:1200px) {
-  .navbar-toggler{
-    position: fixed;
-left: 20px;
-  }
-}
-
-@media screen and (max-width:768px) {
-  .imagen-viajes {
-    
-      max-width: 10%;
-  
-  }
-}
-
-@media screen and (max-width:768px) {
-  .navbar-bar .ml-auto ,a {
-    
-      text-align: left;
-  
-  }
-}
-
-@media screen and (max-width:768px) {
-  .texto-viajes {
-    margin-right: 80px!important;
-  
-  }
-}
-
-@media screen and (max-width:1200px) {
-  .foot {
-    position: relative;
-    right: 28px;
-  }
-}
-
-*/
 
 .fondo-footer {
   background-color: black;

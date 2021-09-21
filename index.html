@@ -26,17 +26,18 @@
 <!-- Navegador-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
-        <div class="container">
-            <a class="navbar-brand align-items-center d-flex" href="#">
-                <img class="imagen-viajes" src="assets/img/viajes.svg"  alt="Logo de viajes"/> <span class="h4 text-light m-0 pl-2 font-weight-normal text-logo">Viajes Chile</span>
-            </a>
+            <a class="navbar-brand align-items-center d-flex" href="#"> <img src="assets/img/viajes.svg" class="imagen-viajes" alt="Logo de viajes"></a> <span class="text-light m-0 pl-2 font-weight-normal">Viajes Chile</span>
+            
+            
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
+                
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto text-center">
+                <ul class="navbar-nav ml-auto">
+                    
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#inicio">Inicio</a>
                     </li>
@@ -56,46 +57,45 @@
                 </ul>
             </div>
 
-        </div>
     </nav>
 
 
 <!--Carrousel-->
     <header class="header" id="inicio">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="img-first">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="img-first">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="img-second">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="img-third">
+                    </div>
                 </div>
             </div>
 
-            <div class="carousel-item">
-                <div class="img-second">
-                </div>
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
 
-            <div class="carousel-item">
-                <div class="img-third">
-                </div>
-            </div>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
         </div>
-
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-      </a>
-
-    </div>
     </header>
 
 <!--Quienes Somos-->
-    <section id="somos" class="py-5 color"> 
+    <section id="somos" class="about py-5 color"> 
         <div class="color">
 
             <h3>¿Quiénes somos?</h3>
@@ -144,7 +144,7 @@
 
         <div class="container color">
             <div class="row row-cols-1 row-cols-md-3">
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 py-3">
                     <div class="card border-light">
                         <img class="img-fluid" src="assets/img/card1.jpg" alt="Hermosa laguna ancestral">
                         <div class="card-body bg-cielo">
@@ -154,7 +154,7 @@
                     </div>
                 </div>	
 
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 py-3">
                     <div class="card fondo border-light">
                         <img class="img-fluid" src="assets/img/card2.jpg" alt="Norte imperioso">
                         <div class="card-body bg-cielo">
@@ -164,7 +164,7 @@
                     </div>	
                 </div>
 
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 py-3">
                     <div class="card fondo border-light">
                     <img class="img-fluid" src="assets/img/card3.jpg" alt="Viaja al norte de Chile">
                         <div class="card-body bg-cielo">
@@ -174,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-3 py-3">
                     <div class="card fondo border-light">
                         <img class="img-fluid" src="assets/img/card4.jpg" alt="Encuentro con los bosques del sur">
                         <div class="card-body bg-cielo">
@@ -205,10 +205,10 @@
 
 <!--Footer-->
     <footer class="container-fluid  d-md-block  bg-info section-icons fondo-footer">
-        <div class="container">
+
           <div class="row">
-            <div class="col-lg-4 pagos-creditos hidden-xs">
-              <h4 id="viajes" class="pt-1 font-weight-bold" data-toggle="tooltip" data-placement="top" title="Viaja junto a con nosotros">VIAJES CHILE</h4>
+            <div class="col-lg-3 hidden-xs">
+              <h4 id="viajes" class="text-left pt-1 font-weight-bold" data-toggle="tooltip" data-placement="top" title="Viaja junto a con nosotros">VIAJES CHILE</h4>
             </div>
                 <div class="col-lg-8 text-right fa-iconos-credito pt-1 foot">
                 <a href="https://github.com/droflim/viajeschile" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
@@ -217,7 +217,7 @@
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
             </div>
           </div>
-        </div>
+
     </footer>
 
     
